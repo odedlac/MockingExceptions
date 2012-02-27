@@ -9,7 +9,7 @@ package code;
  */
 public class Divider {
 
-	public Integer divide(Integer i, Integer j) {	
+	public Integer divide(Integer i, Integer j) throws IllegalArgumentException{	
 		Integer k = 0;
 		try {
 			k = i / j;
@@ -19,5 +19,4 @@ public class Divider {
 		}
 		return k;
 	}
-
 }
